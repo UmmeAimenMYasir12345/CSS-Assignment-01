@@ -1,0 +1,555 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    body{
+        overflow-x: hidden;
+        
+    }
+
+
+.container{
+    
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    
+}
+
+.sidebar{
+    width: 23%;
+    height: 100%;
+    background-color: #009732;
+    display: inline-block;
+    position: fixed;
+    
+    
+}
+
+.image{
+    height: 150px;
+    margin-left: 65px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border-radius: 80px;
+    outline:6px solid #00FF00;
+    
+}
+
+.anchor{
+    display: block;
+    text-decoration: none;
+    color: #00FF00;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+
+.a-margin{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+#section1{
+     margin-left: 27%;
+    }
+
+    #section2{
+        margin-left: 27%;
+       }
+
+       #section3{
+        margin-left: 27%;
+       }
+
+       #section4{
+        margin-left: 27%;
+       }
+
+       #section5{
+        margin-left: 27%;
+        padding-top: 100px;
+       }
+
+       #section6{
+        margin-left: 27%;
+       }
+
+h1{
+    padding-top: 120px;
+    font-family: "Bebas Neue";
+    font-size: 95px;
+    font-weight: lighter;
+    }
+
+.aboutheading2{
+    color: grey;
+    font-family: "Bebas Neue";
+    font-weight: lighter;
+    display: inline-block;
+    }
+
+    .EMAIL{
+        display: inline-block;
+        color: #009732;
+        font-family: "Bebas Neue";
+        font-size: 25px;
+        font-weight: lighter;        
+    }
+
+    .TAYLOR{
+        color: #009732;
+        
+    }
+
+    .p1{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+
+    .p2{
+        font-size: 20px;
+    }
+
+    .p3{
+        font-size: 20px;
+       
+        
+    }
+    p{
+        line-height: 27px;
+        color: gray;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .icons{
+        padding-top: 40px;
+        font-size: 50px;
+        }
+
+        .iconanchor{
+            color: black;
+        }
+
+        .iconanchor:hover{
+            color: #009732;
+        }
+
+    .appicon{
+        padding-left: 26px;
+        
+    }
+
+   
+    
+    /* EXPERIENCE */
+    
+
+    .heading1{
+        font-family: "Bebas Neue";
+        padding-top: 100px;
+        font-size: 60px;
+        font-weight: lighter;
+        
+    }
+
+    .experience-heading2{
+        font-family: "Bebas Neue";
+        padding-top: 40px;
+        font-size: 35px;
+        font-weight: lighter;
+    }
+
+    .date1{
+        padding-left: 400px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        vertical-align: top;
+        color: red;
+    }
+
+    .heading-gray{
+        font-family: "Bebas Neue";
+        font-size: 25px;
+        color: gray;
+        font-weight: lighter;
+    }
+    .experience-p1{
+        padding-top: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .experience-p2{
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .experience-p3{
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .experience-p4{
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .experience-heading4{
+        font-family: "Bebas Neue";
+        padding-top: 40px;
+        font-size: 35px;
+        font-weight: lighter;
+
+    }
+
+    .date2{
+        padding-left: 411px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        vertical-align: top;
+        color: red;
+    }
+
+    
+
+    .experience-p5{
+
+        padding-top: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .experience-p6{
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .experience-p7{
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .experience-p8{
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .experience-heading6{
+        font-family: "Bebas Neue";
+        padding-top: 40px;
+        font-size: 35px;
+        font-weight: lighter;
+
+    }
+
+    .date3{
+        padding-left: 411px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        vertical-align: top;
+        color: red;
+    }
+
+    
+
+    .experience-p9{
+        padding-top: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .experience-p10{
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .experience-p11{
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .experience-p12{
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .experience-heading8{
+        font-family: "Bebas Neue";
+        padding-top: 40px;
+        font-size: 35px;
+        font-weight: lighter;
+
+    }
+
+    
+
+    .experience-p13{
+        
+        padding-top: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .experience-p14{
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .experience-p15{
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .anchor:hover{
+        color:rgba(245, 245, 245, 0.815);
+    }
+
+    .b-bottom{
+        border-bottom: 1px solid black;
+        margin-top: 100px;
+    }
+
+    /* EDUCATION */
+
+    
+
+    
+
+    .education-heading2{
+        font-family: "Bebas Neue";
+        padding-top: 40px;
+        font-size: 35px;
+        font-weight: lighter;
+
+    }
+
+    .educationdate1{
+        padding-left: 270px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        vertical-align: top;
+        color: red;
+
+    }
+
+    
+
+    .education-p1{
+        padding-top: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+
+    }
+
+    .eduaction-p2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+
+    }
+
+    .education-heading4{
+        font-family: "Bebas Neue";
+        padding-top: 40px;
+        font-size: 35px;
+        font-weight: lighter;
+
+    }
+    
+    .educationdate2{
+        padding-left: 310px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        vertical-align: top;
+        color: red;
+
+    }
+
+    
+    .education-p3{
+        padding-top: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+
+    }
+
+    /* SKILLS */
+
+    .langicon{
+        padding-top: 30px;
+        font-size: 50px;
+        color: gray;
+    }
+
+    .l-icon{
+        padding-left: 5px;
+    }
+
+    .b4-bottom{
+        border-bottom: 1px solid black;
+        margin-top: 120px;
+    }
+
+    .heading-gray-2{
+        padding-top: 30px;
+        font-family: "Bebas Neue";
+        font-size: 25px;
+        color: gray;
+        font-weight: lighter;
+    }
+
+    .heading-gray-1{
+        padding-top: 40px;
+        font-family: "Bebas Neue";
+        font-size: 25px;
+        color: gray;
+        font-weight: lighter;
+    }
+
+    .check{
+        height: 50px;
+        width: 50px;
+        margin-left: 28%;  
+      }
+
+      .workflow-list{
+        list-style-type: none;
+      }
+
+      ul li::before{
+        content: "\2713\0020";
+      }
+
+      .list{
+        padding-left: 15px;
+        padding-top: 20px;
+      }
+
+      /* INTERESTS */
+
+      
+
+      .interests-p1{
+        
+        padding-top: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 17px;
+        
+    }
+
+    .interests-p2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 17px;
+
+    }
+
+    .interests-p3{
+        padding-top: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 17px;
+    }
+
+    .interests-p4{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 17px;
+    }
+
+    .interests-p5{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 17px;
+    }
+
+    .b5-bottom{
+        border-bottom: 1px solid black;
+        margin-top: 150px;
+    }
+
+    /* AWARDS & CERTIFICATIONS */
+
+    .heading6{
+        font-family: "Bebas Neue";
+        padding-top: 140px;
+        font-size: 60px;
+        font-weight: lighter;
+        margin-top: 65px;
+        
+    }
+
+    .awardlist{
+        list-style-type: none;
+        
+    }
+
+    .cup{
+        height: 20px;
+        width: 20px;
+        vertical-align: bottom;
+    }
+
+    .list-award{
+        padding-left: 15px;
+        padding-top: 50px;
+        line-height: 25px;
+    }
+
+    .awardlist li{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 17px;
+        font-weight:normal;
+        color: grey;
+         }
+
+        .b6-bottom{
+            border-bottom: 1px solid black;
+            margin-top: 150px;
+        }
+
+        .awardlist span{
+            padding-left: 10px;
+        }
+
+        .award2{
+            padding-top: 5px;
+        }
